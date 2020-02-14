@@ -1,10 +1,10 @@
 # An Ultimate DevOps Interview Preparation Series
 
 
-## DevOps
+## DevOps for Beginners [0-3 years experience]
 
 <a name="devops-beginner"></a>
-#### :baby: Beginner
+####  Beginner
 
 <details>
 <summary>What is DevOps?</summary><br><b>
@@ -154,5 +154,8 @@ It can be as simple as one Ansible (or other CM tool) task that runs periodicall
 </b></details>
 
 
+## DevOps for Intermediate [3-7 years experience]
+
+## DevOps for Advanced [7-10 years experience]
 
 
