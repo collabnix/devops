@@ -1,2 +1,1 @@
-# devops
-An Ultimate DevOps Interview Preparation Series
+# An Ultimate DevOps Interview Preparation Series
