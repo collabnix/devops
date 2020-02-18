@@ -1,5 +1,88 @@
 # An Ultimate DevOps Interview Preparation Series
 
+# Linux Interview 
+
+Divided into following sections :
+
+- Managing Partitions and File Systems
+- Logical Volume Management and RAID Levels
+- User and Group Administration, SUDO and Permissions
+- Network Configuration and Troubleshooting
+- Managing SELinux
+- Booting Procedure and Kernel parameters
+- Job Automation
+- Administrating Remote Systems (SSH)
+- Memory Management (Swap)
+- Software Management
+- Backup and Restore
+- Managing Installed Services
+- Managing Process
+- FTP (File Transfer Protocol) Server
+- NFS (Network File System) Server,   Autofs  and  LDAP  Client
+- Samba Server
+- NTP (Network Time Protocol)  or  Chrony
+- DNS (Domain Naming System)
+- DHCP (Dynamic Host Configuration Protocol)
+- Web Server (Apache)
+- Mail Server
+- iSCSI (Remote Storage)
+- MySQL Server  and  MariaDB
+- Log Server  and  Log Files
+- Configuring IPtables  and  Firewall
+- Virtualization
+- General Questions
+- Kickstart Installation  and  PXE (Network)  Installation
+- Veritas Volume Manager  and   Veritas Cluster
+- RedHat  Cluster
+
+## Managing Partitions and File Systems
+1. What is partition? <br>
+	-  A partition is a contiguous set of blocks on a drive that are treated as independent disk. 
+2.	What is partitioning? <br>
+- Partitioning means to divide a single hard drive into many logical drives.
+3.Why we have multiple partitions?
+ -	Encapsulate our data. Since file system corruption is limited to that partition only. So we can save our data from accidents.
+ - 	We can increase the disk space efficiency. Depending on our usage we can format the partition with different block sizes. So we can reduce the wastage of the disk.
+ -	We can limit the data growth by assigning the disk quotas.
+4.What is the structure of the disk partition?
+ - The first sector of the O/S disk contains the MBR (Master Boot Record). The MBR is divided into 3 parts and it's size is 512 bytes.
+ - The first part is IPL (Initial Program Loader) and it contains the Secondary Boot Loader. So, IPL  is responsible for booting the O/S and it's size is 446 bytes.
+ - The second part is PTI (Partition Table Information). It contains the number of partitions on the disk, sizes of the partitions and type of the partitions.
+5.Explain the disk partition criteria?
+ -	Every disk can have max. 4 partitions. The 4 partitions are 3 Primary partitions and 1 Extended partition.
+ - The MBR and O/S will install in Primary partition only.
+ - The Extended partition is a special partition and can be further divided into multiple logical partitions.
+6.	How to identify the disks?
+		In Linux different types of disks will be identified by different naming conventions.
+ - IDE) drives will be shown as /dev/hda, /dev/hdb, /dev/hdc, ...etc.,  and the partitions are /dev/hda1,  /dev/hda2, /dev/hda3, ...etc.,
+ - 	iSCSI/SCSI  and SATA drives will be shown as /dev/sda, /dev/sdb, /dev/sdc, ...etc.,  and the partitions are /dev/sda1, /dev/sda2, /dev/sda3, ...etc.,
+ - Virtual drives will be shown as /dev/vda, /dev/vdb, /dev/vdc, ...etc.,  and the partitions are /dev/vda1, /dev/vda2, /dev/vda3, ...etc.,
+IDE  ----->  Integrated Drive Electronics.iSCSI  ----->  Internet Small  Scale System Interface.
+SCSI  ----->  Small Scale System Interface.
+7. What is file system?
+	- It is a method of storing the data in an organized fashion on the disk. Every partition on the disk except MBR and 
+	Extended partition should be assigned with some file system in order to make them to store the data. File 	system is applied on the partition by formatting it with a particular type of file system.
+8.	What are the different types of file systems supported in Linux?
+	-	The Linux supported file systems are ext2, ext3, ext4, xfs, vfat, cdfs, hdfs, iso9660 ...etc.,
+	The ext2, ext3, ext4 file systems are widely used in RHEL-6 and xfs file system is introduced on RHEL-7. 		The vfat file system is used to maintain a common storage between Linux and Windows O/S.
+	- The cdfs file system is used to mount the CD-ROMs and the hdfs file system is used to mount DVDs.
+	The iso9660 file system is used to read CD/DVD.iso image format files in Linux O/S.
+9.	What is mounting and in how many types can we mount the partitions?
+- 	Attaching a directory to the file system in order to access the partition and it's file system is known as mounting.
+-	In general the sub directories under /mnt directory are the mount points to mount the file systems.
+	There two types of mountings in Linux/Unix.
+- Temporary Mounting :
+   - In a temporary mounting first we create a directory and mount the partition on that directory. But this type mounting will last only till the system is up and once it is rebooted the mounting will be lost.
+  Example:# mount   <options><device name><directory name (mount point)>
+-	Permanent Mounting :
+- In this also first we create the directory and open the /etc/fstab file and make an entry as below,
+<device name><mount point><file system type><mount options><take a backup or not><fsck value>
+Whenever the system  reboots mount the partitions according to entries in /etc/fstab file. So, these type of mountings are permanently even after the system is rebooted.
+ ``` # mount   -a          to mount the partitions without reboot)```
+
+
+
+
 
 ## Kubernetes for Beginners [0-3 years experience]
 All the questions in this article are based on asked in interview . 
