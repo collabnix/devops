@@ -5,7 +5,15 @@
   width: 100%;
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+.card {
+  border: solid 1px;
+  text-align: center;
+  padding: 1.5rem 1.5rem;
+  border-radius: 0.5rem;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 0;
 }
