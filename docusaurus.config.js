@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "An Ultimate DevOps Journey",
+  title: "The DevOps Journey",
   tagline: "Concept | Tools | Techniques",
   url: "https://devops.collabnix.com",
   baseUrl: "/",
