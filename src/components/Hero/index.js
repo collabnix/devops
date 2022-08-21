@@ -3,7 +3,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Link from "@docusaurus/Link";
 import clsx from "clsx";
 
-import docusaurus from "../../../static/img/Dockerlabs.png";
+import docusaurus from "../../../static/img/devops.png";
 
 //styles import
 import styles from "./styles.module.css";
