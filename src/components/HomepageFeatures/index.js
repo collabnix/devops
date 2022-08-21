@@ -1,10 +1,11 @@
 import React from "react";
 import clsx from "clsx";
 import styles from "./styles.module.css";
+import Link from "@docusaurus/Link";
 
 const FeatureList = [
   {
-    title: "Continuous Integration and Deployment",
+    title: "CI/CD",
     description: <>Explore the CI/CD oppurtunities that you can learn</>,
   },
   {
