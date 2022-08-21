@@ -2,46 +2,14 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+# What is DevOps?
 
-## Getting Started
+If you want to build better software faster, DevOps is the answer. DevOps combines development and operations to increase the efficiency, speed, and security of software development and delivery compared to traditional processes. 
 
-Get started by **creating a new site**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+# Who is DevOps Engineer?
 
-### What you'll need
+DevOps engineers are a group of influential individuals who encapsulates depth of knowledge and years of hands-on experience around a wide variety of open source technologies and tools. They come with core attributes which involve an ability to code and script, data management skills as well as a strong focus on business outcomes. They are rightly called “Special Forces” who hold core attributes around collaboration, open communication and reaching across functional borders.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+ DevOps engineer always shows interest and comfort working with frequent, incremental code testing and deployment. With a strong grasp of automation tools, these individuals are expected to move the business quicker and forward, at the same time giving a stronger technology advantage. In nutshell, a DevOps engineer must have a solid interest in scripting and coding,  skill in taking care of deployment automation, framework computerization and capacity to deal with the version control system.
