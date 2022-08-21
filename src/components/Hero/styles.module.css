@@ -1,0 +1,30 @@
+.heroBanner {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  justify-content: space-evenly;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+[data-theme="light"] {
+  --ifm-hero-background-color: white;
+  --ifm-hero-text-color: black;
+  --ifm-button-color: black;
+  --ifm-button-background-color: rgb(211, 211, 211);
+}
+
+[data-theme="dark"] {
+  --ifm-hero-background-color: #1c1e21;
+  --ifm-hero-text-color: white;
+  --ifm-button-color: white;
+  --ifm-button-background-color: rgb(73, 73, 73);
+}
