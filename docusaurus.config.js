@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "The DevOps Journey",
   tagline: "Concepts | Tools | Techniques",
-  url: "https://devops.collabnix.com",
+  url: "https://collabnixdevops.collabnix.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
