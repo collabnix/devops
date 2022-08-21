@@ -18,7 +18,7 @@ function Hero() {
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link className="button button--lg" to="/docs/intro">
-              Read the docs Beginners | Intermediate | Advanced
+              Get Started
             </Link>
           </div>
         </div>
