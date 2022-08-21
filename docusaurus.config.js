@@ -6,9 +6,9 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Collabnix Devops",
-  tagline: "The #1 Devops tools that will help you become a devops engineer",
-  url: "https://your-docusaurus-test-site.com",
+  title: "An Ultimate DevOps Journey",
+  tagline: "Concept | Tools | Techniques",
+  url: "https://devops.collabnix.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Collabnix Devops",
+        title: "Collabnix",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
