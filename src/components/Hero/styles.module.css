@@ -10,11 +10,11 @@
   justify-content: center;
 }
 
-.container {
+/* .container {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 [data-theme="light"] {
   --ifm-hero-background-color: white;
   --ifm-hero-text-color: black;
