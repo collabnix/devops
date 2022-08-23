@@ -30,3 +30,12 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+/* override col styles */
+.col[class*="col--"] {
+  flex: 0;
+}
+/* override card container styles */
+.container {
+  max-width: 90%;
+  padding: 0;
+}
