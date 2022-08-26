@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #ababab;
+  --ifm-color-primary: rgb(30, 102, 196);
   --ifm-color-primary-dark: #9a9a9a;
   --ifm-color-primary-darker: #919191;
   --ifm-color-primary-darkest: #787878;
@@ -38,4 +38,13 @@
 .container {
   max-width: 90%;
   padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .hero__title {
+    font-size: 1.5rem;
+  }
+  .hero__subtitle {
+    font-size: 1rem;
+  }
 }
