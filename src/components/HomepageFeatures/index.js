@@ -1,28 +1,27 @@
 import React from "react";
 import clsx from "clsx";
 import styles from "./styles.module.css";
-import Link from "@docusaurus/Link";
 
 const FeatureList = [
   {
-    link: "/Cicd",
+    link: "/docs/category/cicd",
     title: "CI/CD",
     description: <>Explore the CI/CD oppurtunities that you can learn</>,
   },
   {
-    link: "/Observability",
+    link: "/docs/category/observability",
     title: "Observability",
     description: (
       <>Monitor the usage and other metrics of your remote cluster</>
     ),
   },
   {
-    link: "/Provisioning",
+    link: "/docs/category/provisioning",
     title: "Provisioning ",
     description: <>Automate the boring tasks and focus on development</>,
   },
   {
-    link: "/Orchestration",
+    link: "/docs/category/orchestration",
     title: "Orchestration ",
     description: (
       <>Orchestrate the behaviour of the containers using kubernetes.</>
