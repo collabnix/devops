@@ -28,3 +28,16 @@
   --ifm-button-color: white;
   --ifm-button-background-color: rgb(73, 73, 73);
 }
+
+@media screen and (max-width: 1300px) {
+  .heroBanner {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero__title {
+    font-size: 1rem;
+  }
+}

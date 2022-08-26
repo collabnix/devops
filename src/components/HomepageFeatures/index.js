@@ -5,20 +5,24 @@ import Link from "@docusaurus/Link";
 
 const FeatureList = [
   {
+    link: "/Cicd",
     title: "CI/CD",
     description: <>Explore the CI/CD oppurtunities that you can learn</>,
   },
   {
+    link: "/Observability",
     title: "Observability",
     description: (
       <>Monitor the usage and other metrics of your remote cluster</>
     ),
   },
   {
+    link: "/Provisioning",
     title: "Provisioning ",
     description: <>Automate the boring tasks and focus on development</>,
   },
   {
+    link: "/Orchestration",
     title: "Orchestration ",
     description: (
       <>Orchestrate the behaviour of the containers using kubernetes.</>
@@ -43,7 +47,9 @@ export default function HomepageFeatures() {
       <div className="container">
         <div className={styles.row}>
           {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+            <a href={props.link}>
+              <Feature key={idx} {...props} />
+            </a>
           ))}
         </div>
       </div>
