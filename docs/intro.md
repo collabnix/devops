@@ -7,6 +7,8 @@ sidebar_position: 1
 
 If you want to build better software faster, DevOps is the answer. DevOps combines development and operations to increase the efficiency, speed, and security of software development and delivery compared to traditional processes. 
 
+DevOps is a culture, not a role. The purpose of DevOps is to enable faster delivery of higher quality software. DevOps is not just limited to a set of tools or a paradigm–it is often designated as the intersection between culture, processes, and tools. Through continuous learning and improvement, engineers are able to improve quality and deliver products faster to market, thus increasing user satisfaction and ROI.
+
 
 # Who is DevOps Engineer?
 
