@@ -9,6 +9,8 @@ tags: [devops, culture]
 # Continuous Integration and Delivery
 
 - [Getting Started with Argo CD on Docker Desktop](https://collabnix.com/getting-started-with-argocd-on-docker-desktop/)
+- [Test-Drive Continuous Integration Pipeline using Docker, Jenkins & GitHub under $0](https://collabnix.com/5-minutes-to-continuous-integration-pipeline-using-docker-jenkins-github-on-play-with-docker-platform/)
+- [Jenkins X Cloud Native CI/CD with TestProject](https://collabnix.com/jenkins-x-cloud-native-ci-cd-with-testproject/)
 
 
 
