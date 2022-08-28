@@ -1,17 +1,11 @@
 ---
-slug: welcome
-title: Welcome
+slug: devops engineer
+title: How to Become a DevOps Engineer
 authors: [ajeetraina]
 tags: [devops, culture]
 ---
 
-# How to become a DevOps Engineer?
 
-**Introduction to the devops engineer**
-
-
-
-1. **Who are devops engineer?**
 
         
 DevOps engineers are a group of influential individuals who encapsulates depth of knowledge and years of hands-on experience around  wide variety of open source technologies and tools. They come with core attributes which involve an ability to code and script, data management skills as well as  a strong focus on business outcomes. They are rightly called as “Special Forces” who hold core attributes around collaboration, open communication and reaching across functional borders. 
