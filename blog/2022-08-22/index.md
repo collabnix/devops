@@ -5,8 +5,6 @@ authors: [ajeetraina]
 tags: [devops, culture]
 ---
 
-
-
         
 DevOps engineers are a group of influential individuals who encapsulates depth of knowledge and years of hands-on experience around  wide variety of open source technologies and tools. They come with core attributes which involve an ability to code and script, data management skills as well as  a strong focus on business outcomes. They are rightly called as “Special Forces” who hold core attributes around collaboration, open communication and reaching across functional borders. 
 
@@ -15,7 +13,6 @@ DevOps engineers are a group of influential individuals who encapsulates depth o
 
 
 
-![alt_text](images/image1.png "image_tooltip")
 
 
 DevOps engineer always show interest and comfort working with frequent, incremental code testing and deployment.With strong grasp of automation tools, these individuals are expected to move the business quicker and forward, at the same time giving a stronger technology advantage. In nutshell, a DevOps engineer must have a solid interest for scripting and coding,  skill in taking care of deployment automation, framework computerization and capacity to deal with the version control system.
@@ -53,7 +50,6 @@ DevOps Engineer has end to end responsibility of the Application (Software) righ
 
    
 
-![alt_text](images/image3.png "image_tooltip")
 
 
 

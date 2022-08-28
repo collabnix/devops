@@ -69,7 +69,7 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/collabnix/devops",
             label: "GitHub",
             position: "right",
           },
@@ -95,12 +95,12 @@ const config = {
                 href: "https://stackoverflow.com/questions/tagged/docusaurus",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                label: "Slack",
+                href: "https://launchpass.com/collabnix",
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                href: "https://twitter.com/collabnix",
               },
             ],
           },
@@ -113,12 +113,12 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/collabnix/devops",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Collabnix, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
