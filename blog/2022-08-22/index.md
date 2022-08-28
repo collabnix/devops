@@ -6,6 +6,13 @@ tags: [devops, culture]
 ---
 
 
+# Continuous Integration and Delivery
+
+- [Getting Started with Argo CD on Docker Desktop](https://collabnix.com/getting-started-with-argocd-on-docker-desktop/)
+
+
+
+
 # Observability:
 
 - [Running Prometheus Docker container for monitoring Microservices on Raspberry Pi](https://collabnix.com/running-prometheus-docker-image-for-monitoring-microservices-on-raspberry-pi/)
