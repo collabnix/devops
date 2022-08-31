@@ -41,7 +41,45 @@ Used to monitor applications in a Kubernetes cluster to make them the same as th
 
 Argo CD is a tool that will help read your environment configuration from your git repository and apply it to your Kubernetes namespaces.  App definitions, environment, and configurations should be declarative and version controlled. App deployment and lifecycle management should be automated, audible, and easy to understand.Argo CD uses a Git repo to express the desired state of the Kubernetes environment. The basic setup uses one repository to represent one project. Within that repository, each application that makes up the project will be described in its own folder. The repository will also contain a branch for each destination (i.e. cluster and namespace) into which we want to deploy the applications.
 
+## Prerequisite:
 
+### Install Docker Desktop
+
+Visit https://docs.docker.com/desktop/mac/install/ to setup Docker Desktop for Mac or Windows on your local system.
+
+![image](https://user-images.githubusercontent.com/313480/187713909-aaa57c85-0e53-49f3-9ae5-0dad654fe5ad.png)
+
+
+### Enable Kubernetes
+
+Ensure that the checkbox for Kubernetes is enabled under Desktop Desktop Preference UI.
+
+![image](https://user-images.githubusercontent.com/313480/187713990-2baca093-6fdb-45e0-b6c0-fad54fd7b161.png)
+
+
+## Getting Started
+
+### Step 1. Create a new namespace
+
+Create a namespace argocd where all ArgoCD resources will be installed
+
+```
+ kubectl create namespace argocd
+```
+
+### Step 2. Install ArgoCD resources
+
+```
+ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+ 
+kubectl get po -n argocd
+NAME                                  READY   STATUS              RESTARTS   AGE
+argocd-application-controller-0       0/1     ContainerCreating   0          3m9s
+argocd-dex-server-65bf5f4fc7-5kjg6    0/1     Init:0/1            0          3m13s
+argocd-redis-d486999b7-929q9          0/1     ContainerCreating   0          3m13s
+argocd-repo-server-8465d84869-rpr9n   0/1     Init:0/1            0          3m12s
+argocd-server-87b47d787-gxwlb         0/1     ContainerCreating   0          3m11s
+```
 
 
 # References
