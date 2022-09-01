@@ -6,3 +6,13 @@
     "description": "Here's a list of ArgoCD Tutorials"
   }
 }
+
+
+{
+  "label": "ArgoCD on Docker Desktop",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Getting Started with ArgoCD on Docker Desktop"
+  }
+}
