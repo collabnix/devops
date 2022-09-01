@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# ArgoCD
+# Overview of ArgoCD
 
 DevOps is a way for development and operations teams to work together collaboratively. It is basically a cultural change. Organizations adopt DevOps culture in order to be able to produce new applications and services at high velocity. To achieve high velocity and fast innovation, GitOps was born. GitOps gives you tools and a framework to take DevOps practices, like collaboration, CI/CD, and version control, and apply them to infrastructure automation and application deployment.
 
