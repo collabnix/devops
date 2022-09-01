@@ -5,10 +5,7 @@
     "type": "generated-index",
     "description": "Here's a list of ArgoCD Tutorials"
   }
-}
 
-
-{
   "label": "ArgoCD using Docker Desktop",
   "position": 2,
   "link": {
