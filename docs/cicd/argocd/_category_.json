@@ -9,7 +9,7 @@
 
 
 {
-  "label": "ArgoCD on Docker Desktop",
+  "label": "ArgoCD using Docker Desktop",
   "position": 2,
   "link": {
     "type": "generated-index",
