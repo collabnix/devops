@@ -16,7 +16,7 @@
   justify-content: center;
 } */
 [data-theme="light"] {
-  --ifm-hero-background-color: white;
+  --ifm-hero-background-color: rgb(198, 226, 252);
   --ifm-hero-text-color: black;
   --ifm-button-color: black;
   --ifm-button-background-color: rgb(211, 211, 211);
