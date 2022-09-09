@@ -46,6 +46,7 @@ argocd-server-87b47d787-gxwlb         0/1     ContainerCreating   0          3m1
 
 ### Step 3. Ensure that all Pods are up and running
 
+```
 kubectl get po -n argocd
 NAME READY STATUS RESTARTS AGE
 argocd-application-controller-0 1/1 Running 0 5m25s
@@ -53,14 +54,12 @@ argocd-dex-server-65bf5f4fc7-5kjg6 1/1 Running 0 5m29s
 argocd-redis-d486999b7-929q9 1/1 Running 0 5m29s
 argocd-repo-server-8465d84869-rpr9n 1/1 Running 0 5m28s
 argocd-server-87b47d787-gxwlb 1/1 Running 0 5m27s
-
 ```
 
 ### Step 4. Configuring Port Forwarding for Dashboard Access
 
 
 ```
-
 kubectl port-forward svc/argocd-server -n argocd 8080:443
 Forwarding from 127.0.0.1:8080 -> 8080
 Forwarding from [::1]:8080 -> 8080
