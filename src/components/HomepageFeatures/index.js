@@ -6,7 +6,7 @@ const FeatureList = [
   {
     link: "/docs/category/cicd",
     title: "CI/CD",
-    description: <>Explore the CI/CD oppurtunities that you can learn</>,
+    description: <>Explore the CI/CD opportunities that you can learn</>,
   },
   {
     link: "/docs/category/observability",
