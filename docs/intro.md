@@ -36,3 +36,16 @@ DevOps engineers are a group of influential individuals who encapsulates depth o
 DevOps is not a way to get developers doing operational tasks so that you can get rid of the operations team and vice versa.  Rather it is a way of working that encourages the Development and Operations teams to work together in a highly collaborative way towards the same goal. In nutshell, DevOps integrates developers and operations team to improve collaboration and productivity.
 
 The main goal of DevOps is not only to increase the product’s quality to a greater extent but also to increase the collaboration of Dev and Ops team as well so that the workflow within the organization becomes smoother & efficient at the same time.
+
+# 10 Golden tips to become a DevOps Engineer:
+
+    1. Develop Your Personal Brand with Community Involvement
+    2. Get familiar with IaC(Infrastructure-as-Code) - CM
+    3. Understand DevOps Principles & Frameworks
+    4. Demonstrate Curiosity & Empathy
+    5. Get certified on Container Technologies - Docker | Kubernetes| Cloud
+    6. Get Expert in Public | Private | Hybrid Cloud offering
+    7. Become an Operations Expert before you even THINK DevOps
+    8. Get Hands-on with various Linux Distros & Tools
+    9. Arm Yourself with CI-CD, Automation & Monitoring Tools(Github, Jenkins, Puppet, Ansible etc)
+    10. Start with Process Re-Engineering and Cross-collaboration within your teams.
