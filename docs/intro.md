@@ -39,13 +39,13 @@ The main goal of DevOps is not only to increase the product’s quality to a gre
 
 # 10 Golden tips to become a DevOps Engineer:
 
-    1. Develop Your Personal Brand with Community Involvement
-    2. Get familiar with IaC(Infrastructure-as-Code) - CM
-    3. Understand DevOps Principles & Frameworks
-    4. Demonstrate Curiosity & Empathy
-    5. Get certified on Container Technologies - Docker | Kubernetes| Cloud
-    6. Get Expert in Public | Private | Hybrid Cloud offering
-    7. Become an Operations Expert before you even THINK DevOps
-    8. Get Hands-on with various Linux Distros & Tools
-    9. Arm Yourself with CI-CD, Automation & Monitoring Tools(Github, Jenkins, Puppet, Ansible etc)
-    10. Start with Process Re-Engineering and Cross-collaboration within your teams.
+- Develop Your Personal Brand with Community Involvement
+- Get familiar with IaC(Infrastructure-as-Code) - CM
+- Understand DevOps Principles & Frameworks
+- Demonstrate Curiosity & Empathy
+- Get certified on Container Technologies - Docker | Kubernetes| Cloud
+- Get Expert in Public | Private | Hybrid Cloud offering
+- Become an Operations Expert before you even THINK DevOps
+- Get Hands-on with various Linux Distros & Tools
+- Arm Yourself with CI-CD, Automation & Monitoring Tools(Github, Jenkins, Puppet, Ansible etc)
+- Start with Process Re-Engineering and Cross-collaboration within your teams.
