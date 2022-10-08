@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Sumo Logic
 
-[Sumo logic](https://www.sumologic.com/) is a cloud native observability/log management platform that can be used to analyze data that is fed through different sources such as apps,
+Sumo logic is a cloud native observability/log management platform that can be used to analyze data that is fed through different sources such as apps,
 mobile device,microservices etc. While grafana mainly coverts the raw booring data into something that is visually appealing, Sumo logis collects,
 analyzes,investigates,montitors the data alerts the developer.It's analytics are powered by Artificial intelligence which is awesome as it can potentially
 predict any fure risks and helps avoiding it.
